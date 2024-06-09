@@ -1,0 +1,138 @@
+body.light-theme {
+    background-color: #ffffff;
+    color: #000000;
+}
+body.light-theme h1, body.light-theme h2{
+    color: #000000;
+}
+
+body.dark-theme {
+    background-color: #12141D;
+    color: #ffffff;
+}
+body.dark-theme h1, body.dark-theme h2 {
+    color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+.banner{
+    margin: 20vh 0;
+}
+
+.banner article h2{
+    font-weight: 650;
+}
+
+.key_features_content{
+    margin: 17vh 0;
+    background-color: #1E2029;
+    padding: 50px 50px;
+    border-radius: 15px;
+}
+
+.key_features_icon{
+    padding: 10px 13px;
+    background-color: #000000e1;
+}
+
+.creative_solutions_track_of_work{
+    padding: 20px 20px 20px 40px;
+    background-color: #1E2029;
+}
+
+.creative_solutions_track_of_work_content{
+    margin: 6pc 0 6pc;
+}
+
+.box_for_track_description{
+    background-image: linear-gradient(to right,#F58C7B,#F25D46  );
+    padding: 0 0 35px;
+}
+
+.greeting_box{
+    background-color: #F58C7B;
+    position: relative;
+    top: 8px;
+}
+
+.greeting_box_content {
+    position: relative;
+    right: 35px;
+}
+
+.greeting_fline{
+    border: 5px solid rgb(17, 114, 4);
+    border-radius: 10px;
+    width: 40%;
+}
+
+.greeting_sline{
+    border: 5px solid rgb(252, 2, 2);
+    border-radius: 10px;
+    width: 25%;
+}
+
+.box_for_date_of_track{
+    background-color: #f0f0f0;
+}
+
+.date_of_track{
+    background-color: white;
+    box-shadow: 0px 0px 6px gray;
+}
+
+.first_line{
+    border: 5px solid rgba(49, 4, 49, 0.904);
+    border-radius: 10px;
+}
+
+.second_line{
+    border: 5px solid rgb(252, 2, 2);
+    border-radius: 10px;
+}
+
+.two_in_one_line{
+    border: 5px solid rgb(252, 235, 2);
+    border-radius: 10px;
+}
+
+.last_line{
+    border: 5px solid rgb(117, 117, 112);
+    border-radius: 10px;
+}
+
+.how_it_works{
+    margin: 17vh 0;
+}
+
+.how_it_works_row{
+    background-color: #1E2029;
+    padding: 5pc 0;
+    border-radius: 10px;
+    margin-top: 4pc;
+}
+
+.vert_line{
+    border-left: 3px dotted #12141D;
+    height: 100%;
+}
+
+.price_plan{
+    margin-bottom: 17vh;
+}
+
+.prices_box{
+    background-color: #1E2029;
+    border-radius: 7px;
+}
+
+@media (max-width: 490px) {
+    .key_features_content{
+        padding: 18px 18px;
+    }
+}
