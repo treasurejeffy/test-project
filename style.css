@@ -2,6 +2,7 @@ body.light-theme {
     background-color: #ffffff;
     color: #000000;
 }
+
 body.light-theme h1, body.light-theme h2{
     color: #000000;
 }
@@ -29,7 +30,7 @@ body.dark-theme h1, body.dark-theme h2 {
 }
 
 .key_features_content{
-    margin: 17vh 0;
+    margin: 8vh 0 17vh;
     background-color: #1E2029;
     padding: 50px 50px;
     border-radius: 15px;
@@ -117,9 +118,28 @@ body.dark-theme h1, body.dark-theme h2 {
     margin-top: 4pc;
 }
 
+.how_it_works_first_col{
+    display: flex;
+    justify-content: end;
+}
+
+.how_it_works_first_col_div{
+    text-align: end;
+}
+
+.how_it_works_third_col{
+    display: flex;
+    justify-content: start;
+}
+.how_it_works_third_col_div{        
+    text-align: start;
+}
+
 .vert_line{
-    border-left: 3px dotted #12141D;
-    height: 100%;
+    border-left: 5px dotted #67686b23;
+    height: 10pc;
+    position: relative;
+    left: 37px;
 }
 
 .price_plan{
@@ -128,11 +148,116 @@ body.dark-theme h1, body.dark-theme h2 {
 
 .prices_box{
     background-color: #1E2029;
+    border-radius: 10px;
+}
+
+.price_plan i{
+    font-size: 26px;
+    line-height: 1.5px;
+}
+
+.price_plan .free button{
+    background-color: #04AA69;
+}
+
+.price_plan .basic button{
+    background-color: #FF7661;
+}
+
+.price_plan .premium button{
+    background-color: #855AFF;
+}
+
+.Testimonials{
+    margin-bottom: 17vh;
+}
+
+.testimonials_boxes{
+    background-color: #262830;
+    border-radius: 10px;
+}
+
+.bi-quote{
+    float: inline-end;
+    position: relative;
+    bottom: 30px;
+}
+
+.Faq-row{
+    background-color: #262830;
+    padding: 50px 0;
+    margin-bottom: 17vh;
     border-radius: 7px;
 }
 
-@media (max-width: 490px) {
+.first_FAQ{
+    background-color: #2a2b30;
+    border-radius: 8px;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.FAQ .Faq-nums p{
+    padding: 12px 16px;
+}
+
+footer ul li{
+    list-style: none;
+    text-decoration: none;
+    line-height: 29px;
+}
+
+footer ul li a{
+    color: #828386;
+}
+
+
+
+@media (max-width: 767px) {
     .key_features_content{
         padding: 18px 18px;
     }
+
+    .how_it_works_first_col{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .how_it_works_first_col{
+        display: flex;
+    }
+    .how_it_works_first_col_div{        
+        justify-content: center;
+        width: 50%;       
+        text-align: center;
+    }
+
+    .how_it_works_first_col_div article{
+        background-color: #262830;
+        margin: 2px 0;
+        padding: 15px;
+        border-radius: 6px;
+    }
+
+    .how_it_works_third_col{
+        display: flex;
+        justify-content: center;
+    }
+
+    .how_it_works_third_col_div{ 
+        width: 50%;       
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .how_it_works_third_col_div article{
+        background-color: #262830;
+        padding: 15px;
+        border-radius: 6px;
+        margin: 2px 0 2px;
+    }
+
+ 
 }
